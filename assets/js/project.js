@@ -6,17 +6,17 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
-    description: "A quiz app built using basic react.",
+    title: "Email form",
+    cardImage: "assets/images/project-page/murach.png",
+    description: "Email form to get informationn.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://render-webapp-v1j2.onrender.com/web-1.0-SNAPSHOT/",
   },
   {
-    title: "Chess Engine",
-    cardImage: "assets/images/project-page/chess.jpg",
-    description: "A chess engine for a popular game dev engine.",
+    title: "Chapter 5,6",
+    cardImage: "assets/images/project-page/jsp.jpg",
+    description: "Homework for chapter 5,6",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
     Githublink: "",
@@ -24,12 +24,12 @@ const projects = [
   {
     title: "Flappy Bird",
     cardImage: "assets/images/project-page/flappybird.png",
-    description: "Flappy bird game built using React.js",
+    description: "Flappy bird game built using Winform",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/Anan1303/Flappy-bird.git",
   },
-  {
+  /* {
     title: "Exercise Tracker",
     cardImage: "assets/images/project-page/exercise.jpg",
     description: "Exercise tracker built using basic redux.",
@@ -108,7 +108,7 @@ const projects = [
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
     Githublink: "",
-  },
+  }, */
 ];
 
 // function for rendering project cards data
